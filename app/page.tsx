@@ -3,11 +3,13 @@ import LinkedinSVG from "@/app/ui/linkedin-svg";
 import GithubSVG from "@/app/ui/github-octo-svg";
 import GmailSVG from "@/app/ui/gmail-svg";
 import TagPills from "@/app/ui/tag-pills";
+import ProjectCard from "@/app/ui/project-card";
 const TAGS = ["Hello", "World", "Foo", "Bar"];
 
 export default function Home() {
   return (
     <main className="m-8">
+      <ProjectCard />
       <header className="w-full lg:w-1/2 lg:fixed">
         <div>
           <h1>Tony Wu</h1>
