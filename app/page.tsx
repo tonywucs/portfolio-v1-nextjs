@@ -1,15 +1,16 @@
 import Image from "next/image";
-import LinkedinSVG from "@/app/ui/linkedin-svg";
-import GithubSVG from "@/app/ui/github-octo-svg";
-import GmailSVG from "@/app/ui/gmail-svg";
-import TagPills from "@/app/ui/tag-pills";
-import ProjectCard from "@/app/ui/project-card";
+import LinkedinSVG from "./ui/linkedin-svg";
+import GithubSVG from "./ui/github-octo-svg";
+import GmailSVG from "./ui/gmail-svg";
+import TagPills from "./ui/tag-pills";
+import ProjectCard from "./ui/project-card";
+import EducationCard from "./ui/education-card";
 const TAGS = ["Hello", "World", "Foo", "Bar"];
 
 export default function Home() {
   return (
     <main className="m-8">
-      <ProjectCard />
+      <EducationCard />
       <header className="w-full lg:w-1/2 lg:fixed">
         <div>
           <h1>Tony Wu</h1>
