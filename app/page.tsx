@@ -5,12 +5,13 @@ import GmailSVG from "./ui/gmail-svg";
 import TagPills from "./ui/tag-pills";
 import ProjectCard from "./ui/project-card";
 import EducationCard from "./ui/education-card";
+import BlogPostCard from "./ui/blog-post-card";
 const TAGS = ["Hello", "World", "Foo", "Bar"];
 
 export default function Home() {
   return (
     <main className="m-8">
-      <EducationCard />
+      <BlogPostCard />
       <header className="w-full lg:w-1/2 lg:fixed">
         <div>
           <h1>Tony Wu</h1>
